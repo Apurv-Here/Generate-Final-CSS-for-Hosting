@@ -50,6 +50,7 @@ module.exports = {
 ```
 
 7. Go to package.json and add the path to input.css wherever that is, can be in your root or src, give the whole relative path and it will generate a final css. 
+npx tailwindcss -i ./src/frontend/CSS/input.css - This line will take input.css and compile the tailwindcss layers and all the utility classes and aslo all your custom css into the output.css which is denoted by - ./src/frontend/CSS/input.css -o ./CSS/output.css. 
 
 ```bash
 "scripts": {

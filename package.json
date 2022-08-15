@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-hosting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/frontend/CSS/input.css -o ./CSS/output.css",
+    "watch": "npx tailwindcss -i ./src/frontend/CSS/input.css -o ./CSS/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
